@@ -1,0 +1,51 @@
+# yfinance cache
+py-yfinance/
+*.cache
+.cache/
+yfinance.cache
+*.sqlite
+*.sqlite3
+
+# Report artifacts (keep PDF, ignore editable sources / locks)
+*.docx
+~$*.docx
+~$*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ML artifacts (Keras / sklearn / pickle)
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+saved_model/
+
+# Training logs
+logs/
+runs/
+*.log
+
+# Environment
+.env
+.env.local
